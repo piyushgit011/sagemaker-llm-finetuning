@@ -125,4 +125,4 @@ config = {
 After we have created the HuggingFaceModel we can deploy it to Amazon SageMaker using the deploy method.
 SageMaker will now create our endpoint and deploy the model to it. This can takes a 10-15 minutes.
 # 5. Stream Inference Requests from the Deployed Model using aws lambda:
-
+Now , we will use the aws lambda function to invoke the deployed endpoint. you can go through the lambda.py to know how it is working.actually we are using json and boto3.
